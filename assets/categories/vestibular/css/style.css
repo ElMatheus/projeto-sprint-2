@@ -11,20 +11,20 @@ h1{
 
 p{
     font-size: 10 px;
-    background-color: greenyellow;
+    background-color: rgb(47, 168, 255);
 }
 
 ul{
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 ul li {
-    background-color: aquamarine;
+    background-color: rgb(81, 81, 211);
 }
 
 ol{
-    color: cornflowerblue;
-    background-color: indigo;
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 106, 155);
 }
 
 dd{
