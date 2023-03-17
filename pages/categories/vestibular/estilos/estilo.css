@@ -13,3 +13,12 @@ p{
     font-size: 10 px;
     background-color: greenyellow;
 }
+
+ul{
+    color: blue;
+}
+
+ol{
+    color: cornflowerblue;
+    background-color: aquamarine;
+}
