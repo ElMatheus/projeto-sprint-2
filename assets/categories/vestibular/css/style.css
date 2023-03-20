@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(46, 114, 146);
+    color: #000;
+}
+
+p{
+    font-size: 10 px;
+    background-color: rgb(85, 126, 154);
+}
+
+ul{
+    color: rgb(0, 0, 0);
+}
+
+ul li {
+    background-color: rgb(71, 71, 221);
+}
+
+ol{
+    color: rgb(0, 0, 0);
+    background-color: rgb(186, 187, 188);
+}
+
+dd{
+    background-color: rgb(126, 52, 195);
+}
+dl{
+    background-color: rgb(189, 237, 100);
+}
