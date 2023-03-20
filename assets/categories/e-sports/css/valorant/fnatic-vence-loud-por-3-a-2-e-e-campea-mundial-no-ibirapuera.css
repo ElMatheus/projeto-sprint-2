@@ -94,6 +94,7 @@ p {
     display: flex;
     max-width: 980px;
     margin: 0 auto;
+    width: calc(100/3);
 }
 
 .cards .card {
