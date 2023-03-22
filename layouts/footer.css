@@ -18,6 +18,7 @@ p {
     max-width: 1170px;
     margin: auto;
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -41,6 +42,25 @@ p {
     font-weight: 500;
     position: relative;
 }
+
+.animação-texto {
+    width: 19ch;
+    animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 15px;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+
 .footer-col h4::before{
     content: '';
     position: absolute;
