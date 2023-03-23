@@ -4,27 +4,27 @@
    border: box;
 }
 body{
-   
+   font-family: system-ui;
     text-align: center;
     padding: 20px;
 }
 /*sections*/
 #s1{
-    background-color: rgb(80, 82, 80);
+    
     text-align: justify;
     padding: 20px;
   border-radius: 6px;
-  color: white;
+
 }
 #s2{
-    background-color: rgb(80, 82, 80);
+
     text-align: justify;
     padding: 20px;
   border-radius: 6px;
   width: 40%;
 }
 #s3{
-    background-color: rgb(80, 82, 80);
+   
     text-align: justify;
     padding: 20px;
   border-radius: 6px;
@@ -32,13 +32,20 @@ body{
 }
 /*centralizando*/
 article{
-    display: flex;
+  
     gap: 50px;
     margin-left: 7%;
     margin-top: 5%;
-    color: white;
+ 
 }
 /*titulo*/
 h2{
     margin-top: 5%;
+}
+.legend{
+  text-align: justify;
+  color: rgb(51, 51, 51);
+}
+#a3{
+  text-align: justify;
 }
