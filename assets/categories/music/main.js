@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["Zidane - RyuTheRunner", "Clickbait - Veigh", "Olha - BluePen"];
+const songs = ["Zidane - RyuTheRunner", "Clickbait - Veigh", "Flowers - Miley Cyrus", "Eyes Closed - Ed Sheeran", "Die For You - The Weekend, Ariana Grande", "Calm Down - Rema, Selena Gomez", "Nosso Quadro - Ana Castela", "Leão - Marília Mendonça", "Lovezinho - Treyce", "Paradise - Coldplay", "Perdoa Por Tudo Vida - Veigh"];
 let songIndex = 1;
 
 function getSongTitle(song) {
@@ -78,3 +78,5 @@ audio.addEventListener("ended", nextSong);
 
 // Init
 loadSong(songs[songIndex]);
+
+
